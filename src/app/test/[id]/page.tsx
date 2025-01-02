@@ -5,10 +5,6 @@ import { useParams } from "next/navigation";
 
 import image1 from "../../../img/1.jpg";
 
-export function generateStaticParams() {
-  return [{ id: "1" }, { id: "2" }, { id: "3" }];
-}
-
 const Detail = () => {
   const test = useParams();
   return (
