@@ -5,8 +5,6 @@ import { useParams } from "next/navigation";
 
 import image1 from "../../../img/1.jpg";
 
-export const runtime = "edge";
-
 const Detail = () => {
   const test = useParams();
   return (
